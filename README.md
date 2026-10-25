@@ -10,3 +10,9 @@
 - FaceNet identity vs. the photo, averaged over 0°, ±20°, ±35°, ±50°: 0.783.
 
 `face_v*.glb` are earlier iterations, kept for comparison.
+
+## Q7 face morph
+
+`morph.mp4`: Gertrude Stein (1934) → Cynthia Erivo, 5.4 s, 384×384, H.264, 88,530 bytes. MediaPipe 478-point
+landmarks plus three outward rings of the face oval, eye/mouth alignment, dense piecewise-affine warp with a
+smootherstep schedule and a gentle sigmoid cross-dissolve.
